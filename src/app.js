@@ -32,15 +32,9 @@ app.put("/repositories/:id", (request, response) => {
   
   checkRepository(repositoryIndex, response);
 
-  const newRepository = {
-    title,
-    url,
-    techs,
-  };
-
-  repositories[repositoryIndex].title = newRepository.title;
-  repositories[repositoryIndex].url = newRepository.url;
-  repositories[repositoryIndex].techs = newRepository.techs;
+  repositories[repositoryIndex].title = title;
+  repositories[repositoryIndex].url = url;
+  repositories[repositoryIndex].techs = techs;
 
   return response.json(repositories[repositoryIndex]);
 });
