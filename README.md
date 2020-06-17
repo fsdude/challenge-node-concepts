@@ -10,23 +10,23 @@ Create an application to store repositories in my portfolio that should be able 
 
 ## :boom: THE tests to be destroyed
 
-- should be able to create a new repository
+- Should be able to create a new repository
 
-- should be able to list the repositories
+- Should be able to list the repositories
 
-- should be able to update repository
+- Should be able to update repository
 
-- should not be able to update a repository that does not exist
+- Should not be able to update a repository that does not exist
 
-- should not be able to update repository likes manually
+- Should not be able to update repository likes manually
 
--should be able to delete the repository
+- Should be able to delete the repository
 
-- should not be able to delete a repository that does not exist
+- Should not be able to delete a repository that does not exist
 
-- should be able to give a like to the repository
+- Should be able to give a like to the repository
 
-- should not be able to like a repository that does not exist
+- Should not be able to like a repository that does not exist
 
 ## :nerd_face: What I learned
 
