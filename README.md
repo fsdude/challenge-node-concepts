@@ -8,6 +8,26 @@
 
 Create an application to store repositories in my portfolio that should be able to create, read, update, delete them and receive 'likes'.
 
+## :boom: THE tests to be destroyed
+
+- should be able to create a new repository
+
+- should be able to list the repositories
+
+- should be able to update repository
+
+- should not be able to update a repository that does not exist
+
+- should not be able to update repository likes manually
+
+-should be able to delete the repository
+
+- should not be able to delete a repository that does not exist
+
+- should be able to give a like to the repository
+
+- should not be able to like a repository that does not exist
+
 ## :nerd_face: What I learned
 
 Leaving aside the requirements for passing automated tests, I learned about:
@@ -28,6 +48,17 @@ Leaving aside the requirements for passing automated tests, I learned about:
 
 Notes to help fix some concepts can be found here: https://www.notion.so/Back-end-with-Node-js-b4115e8cef36496493847357a24eef09
 
-## :memo: License
+## :100: Usage
 
-This project is under license from MIT. See the archive [LICENSE](https://choosealicense.com/licenses/mit/) to more details.
+Clone this repo:
+```
+$ git clone https://github.com/fsdude/challenge-node-concepts.git
+```
+Install all dependencies:
+```
+$ yarn
+```
+Run those tests:
+```
+$ yarn test
+```
