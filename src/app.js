@@ -10,7 +10,7 @@ app.use(cors());
 
 const repositories = [];
 
-function validateId(request, response, next){
+function validateId(request, response, next) {
   const { id } = request.params;
   
   const index = repositories.findIndex(repository => repository.id === id);
@@ -20,9 +20,9 @@ function validateId(request, response, next){
   }
 
   return next();
-}
+};
 
-app.use("/repositories/:id",validateId);
+app.use("/repositories/:id", validateId);
 
 app.get("/repositories", (request, response) => {
   return response.json(repositories);
